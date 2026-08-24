@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: interviewos
+      POSTGRES_PASSWORD: interviewos
+      POSTGRES_DB: interviewos
+    ports:
+      - "5432:5432"
+    volumes:
+      - interviewos_pg:/var/lib/postgresql/data
+
+volumes:
+  interviewos_pg:

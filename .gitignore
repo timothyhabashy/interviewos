@@ -77,8 +77,22 @@ venv.bak/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
+# Local databases
+*.db
+*.db-journal
+api/playwright.db
+
+# Next / Playwright
+web/node_modules/
+web/.next/
+web/test-results/
+web/playwright-report/
+web/blob-report/
+web/playwright/.cache/
+
 # uv
-# (uv.lock SHOULD be committed)
+# (no root lockfile; api dependencies live in api/pyproject.toml)
+
 
 # mypy / pyright
 .mypy_cache/
