@@ -1,0 +1,14 @@
+[
+  "/health",
+  "/v1/history",
+  "/v1/history/compare",
+  "/v1/meta",
+  "/v1/sessions",
+  "/v1/sessions/{session_id}",
+  "/v1/sessions/{session_id}/claim",
+  "/v1/sessions/{session_id}/complete",
+  "/v1/sessions/{session_id}/events",
+  "/v1/sessions/{session_id}/report",
+  "/v1/sessions/{session_id}/retry",
+  "/v1/sessions/{session_id}/turns"
+]
